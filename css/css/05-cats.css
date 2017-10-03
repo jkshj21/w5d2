@@ -1,0 +1,35 @@
+.content-header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background: url("https://i.pinimg.com/originals/82/2f/c2/822fc271f3457af71e88d80b51346769.jpg");
+  background-size: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-header > h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: #000 0 0 10px;
+}
+
+.content-header-add-friend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #000;
+  background: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.content-header-add-friend:hover {
+  background: #eee;
+}
